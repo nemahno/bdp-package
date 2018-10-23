@@ -1,8 +1,8 @@
-====================
-bdp_package_template
-====================
+============
+bdp-template
+============
 
-This is the documentation of **bdp_package_template**.
+This is the documentation of **bdp-template**.
 
 .. note::
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from bdp_package_template.skeleton import fib
+from bdp_template.skeleton import fib
 
 __author__ = "lindelanig"
 __copyright__ = "lindelanig"

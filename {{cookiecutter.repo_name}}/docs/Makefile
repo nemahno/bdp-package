@@ -8,8 +8,8 @@ PAPER         =
 BUILDDIR      = _build
 AUTODOCDIR    = api
 AUTODOCBUILD  = sphinx-apidoc
-PROJECT       = bdp_package_template
-MODULEDIR     = ../src/bdp_package_template
+PROJECT       = bdp-template
+MODULEDIR     = ../src/bdp_template
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $?), 1)

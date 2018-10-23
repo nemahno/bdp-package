@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    Setup file for bdp_package_template.
+    Setup file for bdp_template.
     Use setup.cfg to configure your project.
 
     This file was generated with PyScaffold 3.1.

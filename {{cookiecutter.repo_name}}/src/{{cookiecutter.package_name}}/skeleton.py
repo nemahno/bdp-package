@@ -6,7 +6,7 @@ console script. To run this script uncomment the following lines in the
 [options.entry_points] section in setup.cfg:
 
     console_scripts =
-         fibonacci = bdp_package_template.skeleton:run
+         fibonacci = bdp_template.skeleton:run
 
 Then run `python setup.py install` which will install the command `fibonacci`
 inside your current environment.
@@ -20,7 +20,7 @@ import argparse
 import sys
 import logging
 
-from bdp_package_template import __version__
+from bdp_template import __version__
 
 __author__ = "lindelanig"
 __copyright__ = "lindelanig"
@@ -59,7 +59,7 @@ def parse_args(args):
     parser.add_argument(
         '--version',
         action='version',
-        version='bdp_package_template {ver}'.format(ver=__version__))
+        version='bdp-template {ver}'.format(ver=__version__))
     parser.add_argument(
         dest="n",
         help="n-th Fibonacci number",

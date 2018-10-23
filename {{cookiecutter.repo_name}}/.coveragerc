@@ -1,7 +1,7 @@
 # .coveragerc to control coverage.py
 [run]
 branch = True
-source = bdp_package_template
+source = bdp_template
 # omit = bad_file.py
 
 [paths]

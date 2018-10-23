@@ -1,6 +1,6 @@
-====================
-bdp_package_template
-====================
+============
+bdp-template
+============
 
 
 Add a short description here!
